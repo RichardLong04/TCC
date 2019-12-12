@@ -13,6 +13,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap" rel="stylesheet">
+  <script>
+    $('.panel-title > a').click(function() {
+      $(this).find('i').toggleClass('fa-plus fa-minus')
+        .closest('panel').siblings('panel')
+        .find('i')
+        .removeClass('fa-minus').addClass('fa-plus');
+    });
+  </script>
 </head>
 
 <body>
@@ -329,14 +337,7 @@
   <script async src="https://static.addtoany.com/menu/page.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script>
-    $('.panel-title > a').click(function() {
-      $(this).find('i').toggleClass('fa-plus fa-minus')
-        .closest('panel').siblings('panel')
-        .find('i')
-        .removeClass('fa-minus').addClass('fa-plus');
-    });
-  </script>
+  
 
 </body>
 
