@@ -1,0 +1,302 @@
+body {
+  background-color: whitesmoke;
+  color: #141414;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+
+
+
+}
+
+main {
+  padding-top: 45px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+}
+
+main p {
+  width: 85%;
+  margin: auto;
+  font-size: 1.45em;
+  line-height: 1.30em;
+  padding: 10px 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+/***nav***/
+
+.navbar {
+  background-color: #008ecc;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+}
+
+.navbar .navbar-brand {
+  color: #141414;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.6em;
+  vertical-align: middle;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: whitesmoke;
+  transition-duration: 0.6s;
+}
+
+/* Link */
+
+.navbar .navbar-nav > li > a {
+  color: #141414;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: whitesmoke;
+  transition-duration: 0.6s;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #141414;
+}
+
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+  color: cadetblue;
+  background-color: #D5D5D5;
+}
+
+/*****home pg*****/
+
+.jumbotron {
+  padding: 50px;
+  color: white;
+  background-image: url("images/keyboard.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+}
+
+.jumbotron h1 {
+  font-size: 3.0em;
+}
+
+.jumbotron h3 {
+  padding-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 1.75em;
+}
+
+.btn {
+  background-color: black;
+  border-color: white;
+  font-size:1.15em;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+  transition-duration: 0.6s;
+}
+
+h2 {
+  font-size: 2.25em;
+  padding-bottom: 20px;
+}
+
+.two {
+  background-color: white;
+  color: #000;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+}
+
+.two li {
+  font-size: 1.60em;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  line-height: 1.30em;
+}
+
+.three {
+  background-color: whitesmoke;
+}
+
+.four {
+  background-color: white;
+ border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+}
+
+.five {
+  padding: 25px 0 60px 0;
+  text-align: center;
+}
+
+/**carousel**/
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  transition: opacity ease-out .5s;
+  left: 0;
+  opacity: 0;
+  /* hide all slides */
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1;
+  /* show first slide */
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+/*****about pg*****/
+
+.about {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.about,
+h1,
+h2 {
+  text-align: center;
+}
+
+
+
+.about p {
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  padding-bottom: 10px;
+  text-indent: 2em;
+}
+
+/****services pg*****/
+
+main .fa {
+  float: right;
+}
+
+.address .fa{
+  float:left;
+}
+
+.panel-title {
+  font-size: 1.5em;
+  color: black;
+  padding: 2px;
+
+}
+
+.panel-title:hover {
+
+  color: white;
+  transition-duration: 0.5s;
+
+
+}
+
+#headingSix,
+#headingFive,
+#headingFour,
+#headingThree,
+#headingTwo,
+#headingOne {
+  background-color: #008ecc;
+}
+
+.panel-body {
+  text-align: center;
+
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+}
+
+.panel-body h4 {
+  text-align: left;
+  margin-left: 75px;
+
+}
+
+.panel-body p {
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.panel-body ul {
+  display: inline-block;
+  text-align: left;
+  width: 70%;
+}
+
+.panel-body li {
+  font-size: 1.2em;
+  line-height: 1.65em;
+}
+/*****contact*****/
+/**contact form**/
+.address{
+  margin-left: 25px;
+  color:#141414;
+}
+
+.contact h1{
+  padding-top:50px;
+}
+.contact h2{
+  padding-bottom:70px;
+}
+/***footer***/
+
+footer {
+  background-color: #008ecc;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+  padding-top: 10px;
+}
+
+.social .fa:hover {
+  color: white;
+  transition-duration: 0.6s;
+}
+
+footer p {
+  font-size: 1.15em;
+}
