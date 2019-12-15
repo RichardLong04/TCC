@@ -322,10 +322,11 @@ footer p {
         text-align: center;}
   .jumbotron h2{font-size:1.6em;
     .about{
-      width:100%
+      width:100%;
+    }
       
 
-    }
+    
       }
 
     /* Extra Small Devices, Phones */ 
