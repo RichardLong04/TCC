@@ -306,3 +306,34 @@ footer .fa:hover {
 footer p {
   font-size: 1.15em;
 }
+
+
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    
+.jumbotron h1{
+  font-size:2.0em;
+  text-align: center;
+}
+      .jumbotron h2{
+        font-size:1.6em;
+      }
+
+}
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
