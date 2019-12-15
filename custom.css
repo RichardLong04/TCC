@@ -319,13 +319,14 @@ footer p {
     @media only screen and (max-width : 768px) {
       jumbotron h1{
   font-size:2.0em;
-  text-align: center;
-}
-      .jumbotron h2{
-        font-size:1.6em;
-      }
+        text-align: center;}
+  .jumbotron h2{font-size:1.6em;
+    .about{
+      width:100%
+      
 
     }
+      }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
