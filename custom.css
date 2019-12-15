@@ -142,6 +142,7 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   line-height: 1.30em;
 }
+
 /*****about pg*****/
 
 .about {
@@ -310,33 +311,37 @@ footer p {
 
 
 
-    /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
+/* Medium Devices, Desktops */
 
-    }
+@media only screen and (max-width: 992px) {}
 
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-      jumbotron h1{
-  font-size:2.0em;
-        text-align: center;}
-  .jumbotron h2{font-size:1.6em;
-    .about{
-      width:100%;
-    }
-      
+/* Small Devices, Tablets */
 
-    
-      }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
-
-    
-.
+@media only screen and (max-width: 768px) {
+  jumbotron h1 {
+    font-size: 2.0em;
+    text-align:left;
+  }
+  .jumbotron h2 {
+    font-size: 1.6em;
+  }
+  .about{
+    width:100%;
+  }
+  .about p{
+    width:90%;
+  }
 
 }
-    /* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
 
-    }
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+
+
+  
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
