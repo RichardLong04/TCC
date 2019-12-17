@@ -329,9 +329,8 @@ footer {
 }
 
 .border {
-  background-color: cornflowerblue;
-  border-radius: 6px;
-  border: 1px solid whitesmoke;
+  background-color:#0099CC;
+  border-radius: 10px;
 
 }
 
