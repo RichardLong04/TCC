@@ -323,8 +323,9 @@ footer {
 
 }
 .border{
-  border: 1px solid white;
-  
+ background-color:cornflowerblue;
+  border-radius:6px;
+  border:1px solid whitesmoke;
 }
 
 footer .fa {
