@@ -77,8 +77,8 @@ main p {
 .navbar .navbar-nav > .open > a,
 .navbar .navbar-nav > .open > a:hover,
 .navbar .navbar-nav > .open > a:focus {
-  color:black;
-  background-color:black;
+  color: black;
+  background-color: black;
 }
 
 /*****home pg*****/
@@ -92,7 +92,7 @@ main p {
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
   text-align: center;
- 
+
 
   text-rendering: optimizeLegibility !important;
 }
@@ -143,6 +143,10 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   line-height: 1.30em;
 }
+.logos{
+  padding-bottom: 50px;
+
+}
 
 /*****about pg*****/
 
@@ -167,51 +171,52 @@ h2 {
   padding-bottom: 10px;
   text-indent: 2em;
 }
+
 .carousel .item {
-    left: 0!important;
-    -webkit-transition: opacity .2s;
-    /*adjust timing here */
-    -moz-transition: opacity .2s;
-    -o-transition: opacity .2s;
-    transition: opacity .2s;
+  left: 0!important;
+  -webkit-transition: opacity .2s;
+  /*adjust timing here */
+  -moz-transition: opacity .2s;
+  -o-transition: opacity .2s;
+  transition: opacity .2s;
 }
 
 .next.left,
 .prev.right {
-    opacity: 1;
-    z-index: 1;
+  opacity: 1;
+  z-index: 1;
 }
 
 .active.left,
 .active.right {
-    opacity: 0;
-    z-index: 2;
+  opacity: 0;
+  z-index: 2;
 }
 
 .carousel.fade {
-    opacity: 1;
+  opacity: 1;
 }
 
 .carousel.fade .item {
-    transition: opacity ease-out .9s;
-    left: 0;
-    opacity: 0;
-    /* hide all slides */
-    top: 0;
-    position: absolute;
-    width: 100%;
-    display: block;
+  transition: opacity ease-out .9s;
+  left: 0;
+  opacity: 0;
+  /* hide all slides */
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
 }
 
 .carousel.fade .item:first-child {
-    top: auto;
-    opacity: 1;
-    /* show first slide */
-    position: relative;
+  top: auto;
+  opacity: 1;
+  /* show first slide */
+  position: relative;
 }
 
 .carousel.fade .item.active {
-    opacity: 1;
+  opacity: 1;
 }
 
 
@@ -322,10 +327,12 @@ footer {
 
 
 }
-.border{
- background-color:cornflowerblue;
-  border-radius:6px;
-  border:1px solid whitesmoke;
+
+.border {
+  background-color: cornflowerblue;
+  border-radius: 6px;
+  border: 1px solid whitesmoke;
+
 }
 
 footer .fa {
@@ -352,6 +359,7 @@ footer .fa:hover {
 .fa-linkedin {
   background: #141414;
   color: white;
+
 }
 
 
@@ -360,8 +368,9 @@ footer .fa:hover {
 footer p {
   font-size: 1.15em;
 }
-footer h4{
-   text-decoration: underline;
+
+footer h4 {
+  text-decoration: underline;
 }
 
 
@@ -376,35 +385,31 @@ footer h4{
 @media only screen and (max-width: 768px) {
   .jumbotron h1 {
     font-size: 2.3em;
-    text-align:center;
+    text-align: center;
   }
   .jumbotron h2 {
     font-size: 1.8em;
   }
-  .about{
-    width:100%;
+  .about {
+    width: 100%;
   }
-  .about p{
-    width:90%;
+  .about p {
+    width: 90%;
   }
-  .map{
-    max-width:100%;
-    height:40%;
+  .map {
+    max-width: 100%;
+    height: 40%;
   }
-  .icon-bar{
-    color:#141414;
+  .icon-bar {
+    color: #141414;
+  }
+  .border {
+    background-color: transparent;
+    border: none;
   }
 
-}
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width: 480px) {}
 
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {
-
-
-  
-}
-
-/* Custom, iPhone Retina */
-
-@media only screen and (max-width: 320px) {}
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width: 320px) {}
