@@ -13,24 +13,19 @@ main {
   padding-top: 45px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility !important;
-
 }
 
 main p {
-
-
   font-size: 1.65em;
   line-height: 1.30em;
-
   font-family: 'Quicksand', sans-serif;
   text-align: left;
-
 }
 
 /***nav***/
 
 .navbar {
-  background-color:#0099cc;
+  background-color: #0099cc;
   color: #000;
   font-family: 'Poppins', sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
@@ -101,7 +96,7 @@ main p {
 .jumbotron h3 {
   padding-bottom: 20px;
   font-family: 'Quicksand', sans-serif;
-  font-size:1.85em;
+  font-size: 1.85em;
 }
 
 
@@ -123,14 +118,10 @@ h2 {
   padding-bottom: 20px;
 }
 
-.two {
-  background-color: white;
-  color: #000;
-}
 
 .two ul {
   display: inline-block;
-  padding-left: 60px;
+  padding-left: 10px;
 
 }
 
@@ -139,7 +130,8 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   line-height: 1.30em;
 }
-.logos{
+
+.logos {
   padding-bottom: 50px;
 
 }
@@ -372,6 +364,9 @@ footer h4 {
   }
   .jumbotron h2 {
     font-size: 1.8em;
+  }
+  .two ul {
+    padding-left: 70px;
   }
   .about {
     width: 100%;
