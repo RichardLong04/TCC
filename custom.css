@@ -19,8 +19,8 @@ main {
 main p {
 
 
-  font-size: 1.6em;
-  line-height: 1.25em;
+  font-size: 1.65em;
+  line-height: 1.30em;
 
   font-family: 'Quicksand', sans-serif;
   text-align: left;
@@ -30,7 +30,7 @@ main p {
 /***nav***/
 
 .navbar {
-  background-color: #008ecc;
+  background-color:#0099cc;
   color: #000;
   font-family: 'Poppins', sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
@@ -97,17 +97,13 @@ main p {
   text-rendering: optimizeLegibility !important;
 }
 
-.jumbotron h1 {
-  font-size: 3.0em;
-}
 
 .jumbotron h3 {
   padding-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size:1.85em;
 }
 
-.jumbotron p {
-  font-size: 1.75em;
-}
 
 .btn {
   background-color: black;
@@ -302,18 +298,11 @@ main .fa {
   margin: auto;
 }
 
-.contact h1 {
-  padding-top: 50px;
-}
-
-.contact h2 {
-  padding-bottom: 40px;
-}
 
 /***footer***/
 
 footer {
-  background-color: #008ecc;
+  background-color: #0099cc;
   color: black;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -328,11 +317,6 @@ footer {
 
 }
 
-.border {
-  background-color:#0099CC;
-  border-radius: 10px;
-
-}
 
 footer .fa {
   padding: 8px;
