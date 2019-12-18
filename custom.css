@@ -87,8 +87,7 @@ main p {
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-
-
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility !important;
 }
 
@@ -116,12 +115,18 @@ main p {
 h2 {
   font-size: 2.25em;
   padding-bottom: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
 }
 
+.two {
+  text-align: center;
+}
 
 .two ul {
   display: inline-block;
-  padding-left: 10px;
+  text-align: left;
+  list-style-type: circle;
 
 }
 
@@ -129,6 +134,8 @@ h2 {
   font-size: 1.60em;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.30em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
 }
 
 .logos {
@@ -136,12 +143,20 @@ h2 {
 
 }
 
+text-shadow: 1px 1px 1px rgba(0,
+0,
+0,
+0.004);
+text-rendering: optimizeLegibility !important;
+
 /*****about pg*****/
 
 .about {
   width: 75%;
   margin: auto;
   padding-bottom: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
 }
 
 .about,
@@ -245,11 +260,12 @@ main .fa {
 #headingTwo,
 #headingOne {
   background-color: #008ecc;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
 }
 
 .panel-body {
   text-align: center;
-
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility !important;
 }
@@ -265,6 +281,8 @@ main .fa {
   margin: auto;
   text-align: left;
   font-family: 'Quicksand', sans-serif;
+  font-size: 1.40em;
+  line-height: 1.2em;
 }
 
 .panel-body ul {
@@ -283,6 +301,8 @@ main .fa {
 .address {
   margin-left: 25px;
   color: #141414;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
 }
 
 .inner {
